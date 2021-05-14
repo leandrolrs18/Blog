@@ -1,0 +1,26 @@
+<div class="jumbotron">
+  <h1 class="display-4">Bem vindo ao blog da Include!</h1>
+  <p class="lead">Site de postagens para membros da Include Engenharia</p>
+  <hr class="my-4">
+  <p>Poste o que está acontecendo na empresa!</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button"> Crie uma conta </a>
+</div>
+<hr>
+<h2> Postagens recentes </h2>
+
+{{#each postagens}}
+<div class="card mt-4">
+  <div class="card-body">
+
+    <h3> {{titulo}} </h3>
+    <p> {{descricao}} </p>
+    <a href="/postagem/{{slug}}"><button class="btn btn-success"> Leia mais </button> </a>
+    <hr>
+    <small> Categoria: {{categoria.nome}} </small>
+    <small> Data de publicação: {{data}} </small>
+  </div>
+</div>
+{{else}}
+  <h5> Nenhuma postagem </h5>
+
+  {{/each}}
