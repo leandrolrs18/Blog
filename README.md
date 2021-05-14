@@ -6,7 +6,7 @@ Para rodar a aplicação:
 2) Em outro Prompt, estando na pasta correta, digitar $ node app.js
 3) abrir no navegador "localhost:8089"
 
-
+OBS: o github não suportou a pasta node_modules, ela pode ser acessada e baixada por esse link: https://drive.google.com/drive/folders/12OG23CW6ugF98ITEMAJWxnWjxoht9Yxx?usp=sharing
 
 ![image](https://user-images.githubusercontent.com/30415584/118272300-ce0e3b80-b498-11eb-87c8-6e0dc4d51350.png)
 
