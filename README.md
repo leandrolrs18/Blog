@@ -1,5 +1,5 @@
 # Blog
-Um blog com cadastro, publicação, usuário administrador usando Node.js e moongoDB
+Um blog com cadastro, publicação, usuário, administrador usando Node.js e moongoDB
 
 Para rodar a aplicação: 
 1) Num Prompt de comando rodar o mongoDB com: $ mongod
